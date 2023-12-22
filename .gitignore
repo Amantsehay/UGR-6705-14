@@ -1,7 +1,7 @@
 /node_modules
 /tailwind.config.js
 /dist
-/src/input.css
+./src/input.css
 
 
 
