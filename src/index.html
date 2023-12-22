@@ -4,56 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website </title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./css/style.css        ">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="main-content">
+<body
+        class="main-content tailwind bg-white text-white font-mono text-base transition-all duration-500 ease-in-out bg-no-repeat bg-center bg-cover ">
     <main>
         <!-- The Home Section -->
 
-        <section class="home-section section-main section-main-one active-section" id="home">
-            <div class="swiper mySwiper row container">
+        <section class="home-section section-main section-main-one active-section bg-black
+        overflow-x-hidden text-white transform -translate-y-full scale-0 transition-all duration-600 ease-in-out" id="home">
+            <div class="swiper mySwiper row max-h-[100%] flex h-auto">
                 <div class="swiper-pagination row ">
                 </div>
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide row ">
-                  <div class="swiper-content">
-                    <div class="name-text">
-                        <h1 class="name">
-                            <span style="font-size:xx-large;">ሰላም</span>
+                  <div class="swiper-slide row tailwind flex
+                  flex-wrap-reverse items-center min-h-[100vh]">
+                  <div class="swiper-content tailwind flex flex-col justify-center items-center flex-wrap gap-4">
+                    <div class="name-text tailwind flex flex-col items-center justify-center gap-4 mr-5 md:mr-0 md:space-x-4 sm:p-6 lg:p-9
+                    
+                    ">
+                        <h1 class="name font-bold text-green-500 uppercase text-center text-lg sm:text-xl lg:text-2xl">
+                            <span style="font-size:xx-large;"></span>
                         </h1>
-                        <p >
-                          You can call me Amanuel Tsehay. I'm a full-stack web developer and a....
+                        <p class="tailwind text-2x1 font-medium text-green-500" >
+                         ..............
+                            ............
+                            .............
+                            ...........
                         </p>
 
                     </div>
-                    <div class="btn-container">
-                        <a href="./resources/amanuel-resume.pdf" class="btn btn-primary" download="resume-amanuel.pdf">
+                    <div class="btn-container tailwind ">
+                        <a href="./resources/amanuel-resume.pdf"
+                           class="btn btn-primary flex flex-wrap max-w[250px] rounded-[14px] items-center justify-center text-gray-100 font-medium transition-all duration-300 ease-in-out p-4 
+                           border border-green-500
+                            border-0.5
+                            hover:bg-gray-600
+                            hover:text-white hover:shadow-1 hover:-translate-y-0.5
+
+
+                           download="resume-amanuel.pdf">
                             <span class="btn-text">
-                                Download CV  
+                                Download CV
                             </span>
-                            <span class="btn-icon">
+                            <span class="btn-icon tailwind text-xs ml-2 text-white bg-red-600 flex items-center rounded-full p-1">
                                 <i class="fas fa-download"></i>
                             </span>
-                        
+
                         </a>
 
                     </div>
-                   
-                  </div>
-                  <div class="swiper-img row ">
-                        
-                    <div class="h-shape"></div>
-                    <div class="image">
 
-                        <!-- <img src="./images/black-level-PhotoRoom.png-PhotoRoom.png" alt="">  -->
+                  </div>
+                  <div class="swiper-img row  flex align-center justify-center">
+
+                    <div class="h-shape"></div>
+                    <div class="image rounded-charcoal h-full w-full mx-auto transition-all duration-300 ease-in-ou">
+
+                        <!-- <img class="w-full h-full object-cover transition-all duration-700 ease-in-out filter grayscale-50 hover:grayscale-0" src="" alt="">  -->
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide row ">
-                    <div class="swiper-content">
-                        <div class="name-text">
-                            <h1 class="name">
+                <div class="swiper-slide row tailwind flex
+                flex-wrap-reverse items-center min-h-[100vh]">
+                    <div class="swiper-content tailwind flex flex-col justify-center items-center flex-wrap gap-4">
+                        <div class="name-text tailwind flex flex-col items-center justify-center gap-4 mr-5 md:mr-0 md:space-x-4 sm:p-6 lg:p-9">
+                            <h1 class="name font-bold text-green-500 uppercase text-center text-lg sm:text-xl lg:text-2xl">
                                 <span> Salut</span>
                             </h1>
                             <p style="text-transform: uppercase;">
@@ -61,35 +79,40 @@
                             </p>
 
                         </div>
-                      
-                    </div>
-                      <div class="swiper-img row ">
-                        <div class="h-shape"></div>
-                        <div class="image">
 
-                            <!-- <img src="./images/21266941-removebg-preview.png" alt="">  -->
+                    </div>
+                      <div class="swiper-img row 
+                      tailwind flex items-center
+                      justify-center
+                      ">
+                        <div class="h-shape"></div>
+                        <div class="image rounded-charcoal h-full w-full mx-auto transition-all duration-300 ease-in-ou">
+
+                            <img class="w-full h-full object-cover transition-all duration-700 ease-in-out filter grayscale-50 hover:grayscale-0" src="./images/21266941-removebg-preview.png" alt=""> 
                             </div>
                         </div>
 
                   </div>
 
-                  <div class="swiper-slide row ">
-                      <div class="swiper-img row swiper-img-third ">
+                  <div class="swiper-slide row tailwind flex
+                  flex-wrap-reverse items-center min-h-[100vh] ">
+                      <div class="swiper-img row swiper-img-third flex items-center justify-center   
+                    max-h-96 ml-0">
                         <div class="h-shape">
 
                         </div>
-                        <div class="image">
-                            <img  src="./images/Amanuel_s-Image-transformed.png" alt="">
+                        <div class="image  rounded-charcoal h-full w-full mx-auto transition-all duration-300 ease-in-ou">
+                            <img class="w-full h-full object-cover transition-all duration-700 ease-in-out filter grayscale-50 hover:grayscale-0" src="./images/Amanuel_s-Image-transformed.png" alt="">
 
                         </div>
-                        
+
                       </div>
-                    <div class="swiper-content ">
-                        <div class="name-text">
-                            <h1 class="name">
+                    <div class="swiper-content tailwind flex flex-col justify-center items-center flex-wrap gap-4">
+                        <div class="name-text tailwind flex flex-col items-center justify-center gap-4 mr-r-[50%] md:mr-0 md:space-x-4 sm:p-6 lg:p-9">
+                            <h1 class="name font-bold text-green-500 uppercase text-center text-lg sm:text-xl lg:text-2xl">
                                 Hi, I'm <span> Amanuel Tsehay</span>
                             </h1>
-                            <p >
+                            <p class="flex flex-wrap">
                                Dont ask what your code can do for you, ask what you can do for your code.
                             </p>
 
@@ -98,7 +121,8 @@
                   </div>
 
                 </div>
-                <div class="swiper-button-next row">
+                <div class="swiper-button-next 
+                tailwind  bg-transparent text-green-500 mr-50 row">
                     <i class="fas fa-chevron-right"></i>
                 </div>
                 <!-- <div class="swiper-button-prev"></div> -->
@@ -118,188 +142,204 @@
 
 <!-- The About Section  -->
 
-        <section class="section section-main section-main-two section-about" id="about">
-            <!-- <div class="relative-control">
-                <div class="controls">
-                    <div class="control control-6" data-id="hobbies">
-                        <i class="fa-solid fa-atom"></i>
-                    </div>
-                </div>
-            </div>
-            -->
+        <section class="section section-main section-main-two section-about tailwind overflow-x-hidden min-h-[100%] w-[100%] absolute top-0 left-0 bg-black py-8 px-5 
+        transform -translate-y-full scale-0 transition-all duration-600 ease-in-out" id="about">
+        
             
 
-            <div class="intro-title">
-                <h2>About <span class="me-text"> Me </span><span class="backgroud-text">About Me</span></h2>
+            <div class="intro-title tailwind relative mt-0 text-center">
+                <h2 class="relative uppercase text-lg ">About <span class="me-text tailwind
+                    text-yellow-300
+                    "> Me </span><span class="backgroud-text absolute opacity-40 -z-0 text-gray-300 text-center transform -translate-x-1/2 -translate-y-1/2">About Me</span></h2>
             </div>
-            <div class="about-container">
+
+
+            <div class="about-container flex flex-wrap justify-center ">
                 
-                <div class="about-me-left">
-                    <h2 class="info-title"></h2>
+                <div class="about-me-left flex p-4 flex-col justify-center items-center gap-4 ">
+                    <h2 class="info-title font-bold text-red-500 uppercase text-2xl "></h2>
                     <p>
                         I am a full-stack web developer and a computer science student at Addis Ababa University. I have a passion for web development and love to create for web and mobile devices.
                     </p>
 
-                    <div class="btn-container about-btn-container">
-                        <a href="#" class="btn btn-primary">
+                    <div class="btn-container tailwind ">
+                        <a href="./resources/amanuel-resume.pdf"
+                           class="btn btn-primary flex flex-wrap max-w[250px] rounded-[14px] items-center justify-center text-gray-100 font-medium transition-all duration-300 ease-in-out p-4 
+                           border border-green-500
+                            border-0.5
+                            hover:bg-gray-600
+                            hover:text-white hover:shadow-1 hover:-translate-y-0.5
+
+
+                           download="resume-amanuel.pdf">
                             <span class="btn-text">
-                                Download CV  
+                                Download CV
                             </span>
-                            <span class="btn-icon">
+                            <span class="btn-icon tailwind text-xs ml-2 text-white bg-red-600 flex items-center rounded-full p-1">
                                 <i class="fas fa-download"></i>
                             </span>
-                        
+
                         </a>
 
-                    </div>      
+                    </div>    
                 </div>
 
                 
 
-                <div class="about-me-right">
-                    <div class="about-item">
-                        <div class="about-text">
-                            <p class="about-large-text">2</p>
-                            <p class="small-text">Projects <br> Started</p>
+                <div class="about-me-right flex flex-wrap justify-center items-center gap-8">
+                    <div class="about-item border border-gray-200 p-8 rounded-md shadow-md transition-transform cursor-pointer hover:transform hover:translate-y-0.7rem hover:shadow-md hover:border-2 hover:border-red-500">
+                        <div class="about-text p-1.5 flex flex-col">
+                            <p class="about-large-text text-2xl font-bold text-red-500">2</p>
+                            <p class="small-text text-xs font-medium text-secondary">Projects<br>Started</p>
                         </div>
                     </div>
-
-                    <div class="about-item">
-                        <div class="about-text">
-                            <p class="about-large-text">0</p>
-                            <p class="small-text">Projects <br> <Compteled></Compteled></p>
+                
+                    <div class="about-item border border-gray-200 p-8 rounded-md shadow-md transition-transform cursor-pointer hover:transform hover:translate-y-0.7rem hover:shadow-md hover:border-2 hover:border-red-500">
+                        <div class="about-text p-1.5 flex flex-col">
+                            <p class="about-large-text text-2xl font-bold text-red-500">0</p>
+                            <p class="small-text text-xs font-medium text-secondary">Projects<br>Completed</p>
                         </div>
                     </div>
-
-                    <div class="about-item">
-                        <div class="about-text">
-                            <p class="about-large-text">0</p>
-                            <p class="small-text">Projects <br> Started</p>
+                
+                    <div class="about-item border border-gray-200 p-8 rounded-md shadow-md transition-transform cursor-pointer hover:transform hover:translate-y-0.7rem hover:shadow-md hover:border-2 hover:border-red-500">
+                        <div class="about-text p-1.5 flex flex-col">
+                            <p class="about-large-text text-2xl font-bold text-red-500">0</p>
+                            <p class="small-text text-xs font-medium text-secondary">Projects<br>Started</p>
                         </div>
                     </div>
-
-                    <div class="about-item">
-                        <div class="about-text">
-                            <p class="about-large-text">0</p>
-                            <p class="small-text">Projects <br> Started</p>
+                
+                    <div class="about-item border border-gray-200 p-8 rounded-md shadow-md transition-transform cursor-pointer hover:transform hover:translate-y-0.7rem hover:shadow-md hover:border-2 hover:border-red-500">
+                        <div class="about-text p-1.5 flex flex-col">
+                            <p class="about-large-text text-2xl font-bold text-red-500">0</p>
+                            <p class="small-text text-xs font-medium text-secondary">Projects<br>Started</p>
                         </div>
                     </div>
                 </div>
+                
             </div>
-            <div class="about-skills">
-                <h3 class="skills-title">
+            <div class="about-skills tailwind p-8 gap-y-4 gap-x-0">
+                <h3 class="skills-title relative text-center text-white md:text-2x1 uppercase md:text-2x1 font-medium">
                    My Skills 
                 </h3>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="progress-title">HTML</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
+                <div class="progress-bars flex flex-wrap justify-between">
+                    <!-- HTML Progress Bar -->
+                    <div class="progress-bar my-2 mx-0 w-[45%] min-w-[250px]">
+                        <p class="progress-title text-sm font-medium text-red-500">HTML</p>
+                        <div class="progresses flex justify-center items-center transition-all ease-in-out duration-500">
+                            <div class="progress-value progress-text md:p-2 md:text-2xl font-medium text-green-500">
                                 80%
                             </div>
-                            <div class="progress">
-                                <span class="prog-line html">
-                                </span>
+                            <div class="progress tailwind relative w-[100%] h-1 bg-gray-400">
+                                <span class="prog-line html tailwind absolute top-0 left-0 h-[100%] bg-green-500 transition-all duration-500 ease-in-out w-[80%]"></span>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">Css</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
+                
+                    <!-- CSS Progress Bar -->
+                    <div class="progress-bar my-2 mx-0 w-[45%] min-w-[250px]">
+                        <p class="progress-title text-sm font-medium text-red-500">CSS</p>
+                        <div class="progresses flex justify-center items-center transition-all ease-in-out duration-500">
+                            <div class="progress-value progress-text md:p-2 md:text-2xl font-medium text-green-500">
                                 60%
                             </div>
-                            <div class="progress">
-                                <span class="prog-line css">
-                                </span>
+                            <div class="progress tailwind relative w-[100%] h-1 bg-gray-400">
+                                <span class="prog-line css tailwind absolute top-0 left-0 h-[100%] bg-green-500 transition-all duration-500 ease-in-out w-[60%]"></span>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">JavaScript</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
+                
+                    <!-- JavaScript Progress Bar -->
+                    <div class="progress-bar my-2 mx-0 w-[45%] min-w-[250px]">
+                        <p class="progress-title text-sm font-medium text-red-500">JavaScript</p>
+                        <div class="progresses flex justify-center items-center transition-all ease-in-out duration-500">
+                            <div class="progress-value progress-text md:p-2 md:text-2xl font-medium text-green-500">
                                 60%
                             </div>
-                            <div class="progress">
-                                <span class="prog-line js">
-                                </span>
+                            <div class="progress tailwind relative w-[100%] h-1 bg-gray-400">
+                                <span class="prog-line js tailwind absolute top-0 left-0 h-[100%] bg-green-500 transition-all duration-500 ease-in-out w-[60%]"></span>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">React</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
+                
+                    <!-- React Progress Bar -->
+                    <div class="progress-bar my-2 mx-0 w-[45%] min-w-[250px]">
+                        <p class="progress-title text-sm font-medium text-red-500">React</p>
+                        <div class="progresses flex justify-center items-center transition-all ease-in-out duration-500">
+                            <div class="progress-value progress-text md:p-2 md:text-2xl font-medium text-green-500">
                                 60%
                             </div>
-                            <div class="progress">
-                                <span class="prog-line react">
-                                </span>
+                            <div class="progress tailwind relative w-[100%] h-1 bg-gray-400">
+                                <span class="prog-line react tailwind absolute top-0 left-0 h-[100%] bg-green-500 transition-all duration-500 ease-in-out w-[60%]"></span>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">NodeJS</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
+                
+                    <!-- NodeJS Progress Bar -->
+                    <div class="progress-bar my-2 mx-0 w-[45%] min-w-[250px]">
+                        <p class="progress-title text-sm font-medium text-red-500">NodeJS</p>
+                        <div class="progresses flex justify-center items-center transition-all ease-in-out duration-500">
+                            <div class="progress-value progress-text md:p-2 md:text-2xl font-medium text-green-500">
                                 50%
                             </div>
-                            <div class="progress">
-                                <span class="prog-line node">
-                                </span>
+                            <div class="progress tailwind relative w-[100%] h-1 bg-gray-400">
+                                <span class="prog-line node tailwind absolute top-0 left-0 h-[100%] bg-green-500 transition-all duration-500 ease-in-out w-[50%]"></span>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">Java</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
+                
+                    <!-- Java Progress Bar -->
+                    <div class="progress-bar my-2 mx-0 w-[45%] min-w-[250px]">
+                        <p class="progress-title text-sm font-medium text-red-500">Java</p>
+                        <div class="progresses flex justify-center items-center transition-all ease-in-out duration-500">
+                            <div class="progress-value progress-text md:p-2 md:text-2xl font-medium text-green-500">
                                 80%
                             </div>
-                            <div class="progress">
-                                <span class="prog-line java">
-                                </span>
+                            <div class="progress tailwind relative w-[100%] h-1 bg-gray-400">
+                                <span class="prog-line java tailwind absolute top-0 left-0 h-[100%] bg-green-500 transition-all duration-500 ease-in-out w-[80%]"></span>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">Python</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
+                
+                    <!-- Python Progress Bar -->
+                    <div class="progress-bar my-2 mx-0 w-[45%] min-w-[250px]">
+                        <p class="progress-title text-sm font-medium text-red-500">Python</p>
+                        <div class="progresses flex justify-center items-center transition-all ease-in-out duration-500">
+                            <div class="progress-value progress-text md:p-2 md:text-2xl font-medium text-green-500">
                                 70%
                             </div>
-                            <div class="progress">
-                                <span class="prog-line python">
-                                </span>
+                            <div class="progress tailwind relative w-[100%] h-1 bg-gray-400">
+                                <span class="prog-line python tailwind absolute top-0 left-0 h-[100%] bg-green-500 transition-all duration-500 ease-in-out w-[70%]"></span>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">Spring Boot</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
+                
+                    <!-- Spring Boot Progress Bar -->
+                    <div class="progress-bar my-2 mx-0 w-[45%] min-w-[250px]">
+                        <p class="progress-title text-sm font-medium text-red-500">Spring Boot</p>
+                        <div class="progresses flex justify-center items-center transition-all ease-in-out duration-500">
+                            <div class="progress-value progress-text md:p-2 md:text-2xl font-medium text-green-500">
                                 60%
                             </div>
-                            <div class="progress">
-                                <span class="prog-line spring-boot">
-                                </span>
+                            <div class="progress tailwind relative w-[100%] h-1 bg-gray-400">
+                                <span class="prog-line spring-boot tailwind absolute top-0 left-0 h-[100%] bg-green-500 transition-all duration-500 ease-in-out w-[60%]"></span>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">Bootstrap</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
+                
+                    <!-- Bootstrap Progress Bar -->
+                    <div class="progress-bar my-2 mx-0 w-[45%] min-w-[250px]">
+                        <p class="progress-title text-sm font-medium text-red-500">Bootstrap</p>
+                        <div class="progresses flex justify-center items-center transition-all ease-in-out duration-500">
+                            <div class="progress-value progress-text md:p-2 md:text-2xl font-medium text-green-500">
                                 30%
                             </div>
-                            <div class="progress">
-                                <span class="prog-line bootstrap">
-                                </span>
+                            <div class="progress tailwind relative w-[100%] h-1 bg-gray-400">
+                                <span class="prog-line bootstrap tailwind absolute top-0 left-0 h-[100%] bg-green-500 transition-all duration-500 ease-in-out w-[30%]"></span>
                             </div>
                         </div>
                     </div>
                 </div>
+                
 
             </div>
         </section>
@@ -313,81 +353,91 @@
 
 <!-- The Projects Section  -->
 
-        <section class="section section-main section-main-three section-projects" id="projects">
-            <div class="intro-title">
-                <h2>My <span class="me-text"> Pojects </span><span class="backgroud-text">Projects</span></h2>
-            </div>
+        <section class="section section-main section-main-three section-projects  tailwind overflow-x-hidden min-h-[100%] w-[100%] absolute top-0 left-0 bg-black py-8 px-5
+        transform -translate-y-full scale-0 transition-all duration-600 ease-in-out" id="projects">
+           
+        <div class="intro-title tailwind relative mt-0 text-center">
+            <h2 class="relative uppercase text-lg ">My <span class="me-text tailwind
+                text-yellow-300
+                "> Projects </span><span class="backgroud-text absolute opacity-40 -z-0 text-gray-300 text-center transform -translate-x-1/2 -translate-y-1/2">My Projects</span></h2>
+        </div>
 
-            <p class="portfolio-text"> Some of the Projects I'm currently working on</p>
+            <p class="portfolio-text tailwind p-4 flex mt-6 flex-wrap justify-center text-white"> Some of the Projects I'm currently working on</p>
 
-            <div class="project-container">
+            <div class="project-container grid grid-cols-1 md:grid-cols-auto-fit md:grid-cols-minmax-300px gap-0.5rem justify-center mx-4 my-1">
 
-                <div class="a-project">
-                    <div class="proj-img-text">
-
-                        <p>Twitter Clone </p>
-                        <div class="project-image">
+                <!-- First Project -->
+                <div class="a-project relative rounded-[15px] overflow-hidden shadow-var1">
+                    <div class="proj-img-text flex justify-center items-center flex-col">
+                        <p class="text-white text-xl font-semibold mb-2">Twitter Clone</p>
+                        <div class="project-image w-full h-full max-w-[400px] rounded-[15px] p-4 m-4 object-fill">
                             <img src="./images/react-twitter-clone.jpg" alt="">
                         </div>
                     </div>
-
-                    <div class="hover-item">
-                        <p class="proj-description">A twitter clone project to learn the in and out of enterprise web development</p>
+            
+                    <div class="hover-item absolute left-0 top-0 w-full h-full transition-all duration-1000 ease-in-out opacity-0 bg-gray-400 flex justify-evenly items-center flex-wrap flex-col rounded-[15px]">
+                        <p class="proj-description mt-0 ml-0 text-white text-sm font-normal mb-4">A Twitter clone project to learn the ins and outs of enterprise web development</p>
                         <div>
-                            <h4>Project Source</h4>
-                            <div class="icons">
-                                <a href="https://github.com/Amantsehay/Ctwitter" target="_blank" class="icon">
+                            <h4 class="text-red-500 uppercase text-center mb-2">Project Source</h4>
+                            <div class="icons flex justify-center items-center">
+                                <a href="https://github.com/Amantsehay/Ctwitter" target="_blank" class="icon bg-black rounded-full p-4 w-[50px] h-[50px] flex justify-center items-center hover:bg-gray-100 hover:text-black hover:transition-all hover:duration-300 hover:ease-in-out">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
                         </div>
-            
                     </div>
                 </div>
-                <div class="a-project">
-                    <div class="proj-img-text">
-                        <p>Car Sales Website </p>
-                        <div class="project-image">
+            
+                <!-- Apply the styling of the first project to the other projects -->
+            
+                <div class="a-project relative rounded-[15px] overflow-hidden shadow-var1">
+                    <div class="proj-img-text flex justify-center items-center flex-col">
+                        <p class="text-white text-xl font-semibold mb-2">Car Sales Website</p>
+                        <div class="project-image w-full h-full max-w-[400px] rounded-[15px] p-4 m-4 object-fill">
                             <img src="./images/car-sales-picture.jpeg" alt="">
                         </div>
                     </div>
-
-                    <div class="hover-item">
-                        <p class="proj-description">A car sales website to learn the in and out of enterprise web development</p>
+            
+                    <div class="hover-item absolute left-0 top-0 w-full h-full transition-all duration-1000 ease-in-out opacity-0 bg-gray-400 flex justify-evenly items-center flex-wrap flex-col rounded-[15px]">
+                        <p class="proj-description mt-0 ml-0 text-white text-sm font-normal mb-4">A car sales website to learn the ins and outs of enterprise web development</p>
                         <div>
-                            <h4>Project Source</h4>
-                            <div class="icons">
-                                <a href="https://github.com/Amantsehay/TreasureCart" target="_blank" class="icon">
+                            <h4 class="text-white">Project Source</h4>
+                            <div class="icons flex justify-center items-center">
+                                <a href="https://github.com/Amantsehay/TreasureCart" target="_blank" class="icon bg-black rounded-full p-4 w-[50px] h-[50px] flex justify-center items-center hover:bg-gray-100 hover:text-black hover:transition-all hover:duration-300 hover:ease-in-out">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
                         </div>
-                        
+                        <div class="group-hover:opacity-100 opacity-0 after:absolute after:top-0 after:left-0 after:right-0 after:h-full after:w-full after:content-'' after:bg-red-500 after:bg-opacity-50 after:z-[-1] transition-all duration-1000 ease-in-out">
+                            
+                        </div>
                     </div>
                 </div>
-                <div class="a-project">
-                    <div class="proj-img-text">
-
-                        <p>Dev Scrape</p>
-                        <div class="project-image">
+            
+                <div class="a-project relative rounded-[15px] overflow-hidden shadow-var1">
+                    <div class="proj-img-text flex justify-center items-center flex-col">
+                        <p class="text-white text-xl font-semibold mb-2">Dev Scrape</p>
+                        <div class="project-image w-full h-full max-w-[400px] rounded-[15px] p-4 m-4 object-fill">
                             <img src="./images/dev-scrap-picture.jpg" alt="">
                         </div>
                     </div>
-
-                    <div class="hover-item">
-                        <p class="proj-description">A Web Scraping project to learn to have a good understanding of data intensive projects and AI </p>
+            
+                    <div class="hover-item absolute left-0 top-0 w-full h-full transition-all duration-1000 ease-in-out opacity-0 bg-gray-400 flex justify-evenly items-center flex-wrap flex-col rounded-[15px]">
+                        <p class="proj-description mt-0 ml-0 text-white text-sm font-normal mb-4">A Web Scraping project to learn to have a good understanding of data-intensive projects and AI</p>
                         <div>
-                            <h4>Project Source</h4>
-                            <div class="icons">
-                                <a href="link-to-github" target="_blank" class="icon">
+                            <h4 class="text-white">Project Source</h4>
+                            <div class="icons flex justify-center items-center">
+                                <a href="link-to-github" target="_blank" class="icon bg-black rounded-full p-4 w-[50px] h-[50px] flex justify-center items-center hover:bg-gray-100 hover:text-black hover:transition-all hover:duration-300 hover:ease-in-out">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-
+            
             </div>
+            
+            
 
 
 
@@ -397,51 +447,52 @@
 
 
 
-        <section class="section section-main section-main-four section-blogs" id="blogs">
+        <section class="section section-main section-main-four section-blogs  tailwind overflow-x-hidden min-h-[100%] w-[100%] absolute top-0 left-0 bg-black py-8 px-5 transform -translate-y-full scale-0 transition-all duration-600 ease-in-out" id="blogs">
             
 
-            <div class="intro-title">
-                <h2>Hobbi <span class="me-text"> es Ho </span><span class="backgroud-text">bies</span></h2>
+            <div class="intro-title tailwind relative mt-0 text-center">
+                <h2 class="relative uppercase text-lg ">My <span class="me-text tailwind
+                    text-yellow-300
+                    "> Hobbies </span><span class="backgroud-text absolute opacity-40 -z-0 text-gray-300 text-center transform -translate-x-1/2 -translate-y-1/2">my hobbies</span></h2>
             </div>
-            <div class="hobbies-container">
-                
-                <figure>
-                    <img src="./images/reading-books.png" alt="Reading Icon">
-                    <figcaption>Exploring new worlds and gaining knowledge through literature.</figcaption>
-                </figure>
-            
-                <figure>
-                    <img src="./images/tennis-fun-1-1398467.jpg" alt="Table Tennis Icon">
-                    <figcaption>Engaging in fast-paced and competitive table tennis matches.</figcaption>
-                </figure>
-            
-                <figure>
-                    <img src="./images/hiking-picture.png" alt="Hiking Icon">
-                    <figcaption>Exploring nature, staying active, and enjoying scenic trails.</figcaption>
-                </figure>
-            
-                <figure>
-                    <img src="./images/video-gaming-pic.png" alt="Video Gaming Icon">
-                    <figcaption>Immersive gaming experiences and virtual adventures.</figcaption>
-                </figure>
-            
-                <figure>
-                    <img src="./images/muddy-football.jpg" alt="Football Icon">
-                    <figcaption>Football but socked in the mud.</figcaption>
-                </figure>
-            
-                <figure>
-                    <img src="./images/james-bond.png" alt="Movies Icon">
-                    <figcaption>Enjoying a variety of movies across 
-                        different genres. By genres, I meant spies.
-                         .</figcaption>
-                </figure>
-            
-                <figure>
-                    <img src="./images/foodie-tour.jpg" alt="Foodie Tour Icon">
-                    <figcaption>Devou... I meant exploring different cultural cuisine</figcaption>
-                </figure>
 
+            <div class="hobbies-container flex flex-wrap justify-center items-center gap-6">
+                
+                <figure class="relative w-full h-full max-w-[500px] max-h-[400px] overflow-hidden border rounded-lg shadow-var1 transition-transform cursor-pointer transform hover:-translate-y-0.5 hover:shadow-var1 duration-800 ease-in-out">
+                    <img src="./images/hiking-picture.png" alt="Hiking Icon" class="w-full h-full object-cover transition-all duration-500 ease-in-out">
+                    <figcaption class="absolute top-0 left-0 right-0 bottom-0 p-4 flex flex-col justify-center items-center gap-4 bg-black bg-opacity-50 transition-all duration-500 ease-in-out hover:bg-opacity-70">
+                        <p class="text-white text-sm font-medium">Exploring nature, staying active, and enjoying scenic trails.</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="relative w-full h-full max-w-[500px] max-h-[400px] overflow-hidden border rounded-lg shadow-var1 transition-transform cursor-pointer transform hover:-translate-y-0.5 hover:shadow-var1 duration-800 ease-in-out">
+                    <img src="./images/video-gaming-pic.png" alt="Video Gaming Icon" class="w-full h-full object-cover transition-all duration-500 ease-in-out">
+                    <figcaption class="absolute top-0 left-0 right-0 bottom-0 p-4 flex flex-col justify-center items-center gap-4 bg-black bg-opacity-50 transition-all duration-500 ease-in-out hover:bg-opacity-70">
+                        <p class="text-white text-sm font-medium">Immersive gaming experiences and virtual adventures.</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="relative w-full h-full max-w-[500px] max-h-[400px] overflow-hidden border rounded-lg shadow-var1 transition-transform cursor-pointer transform hover:-translate-y-0.5 hover:shadow-var1 duration-800 ease-in-out">
+                    <img src="./images/muddy-football.jpg" alt="Football Icon" class="w-full h-full object-cover transition-all duration-500 ease-in-out">
+                    <figcaption class="absolute top-0 left-0 right-0 bottom-0 p-4 flex flex-col justify-center items-center gap-4 bg-black bg-opacity-50 transition-all duration-500 ease-in-out hover:bg-opacity-70">
+                        <p class="text-white text-sm font-medium">Football but socked in the mud.</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="relative w-full h-full max-w-[500px] max-h-[400px] overflow-hidden border rounded-lg shadow-var1 transition-transform cursor-pointer transform hover:-translate-y-0.5 hover:shadow-var1 duration-800 ease-in-out">
+                    <img src="./images/james-bond.png" alt="Movies Icon" class="w-full h-full object-cover transition-all duration-500 ease-in-out">
+                    <figcaption class="absolute top-0 left-0 right-0 bottom-0 p-4 flex flex-col justify-center items-center gap-4 bg-black bg-opacity-50 transition-all duration-500 ease-in-out hover:bg-opacity-70">
+                        <p class="text-white text-sm font-medium">Enjoying a variety of movies across different genres. By genres, I meant spies.</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="relative w-full h-full max-w-[500px] max-h-[400px] overflow-hidden border rounded-lg shadow-var1 transition-transform cursor-pointer transform hover:-translate-y-0.5 hover:shadow-var1 duration-800 ease-in-out">
+                    <img src="./images/foodie-tour.jpg" alt="Foodie Tour Icon" class="w-full h-full object-cover transition-all duration-500 ease-in-out">
+                    <figcaption class="absolute top-0 left-0 right-0 bottom-0 p-4 flex flex-col justify-center items-center gap-4 bg-black bg-opacity-50 transition-all duration-500 ease-in-out hover:bg-opacity-70">
+                        <p class="text-white text-sm font-medium">Devouring... I meant exploring different cultural cuisine.</p>
+                    </figcaption>
+                </figure>
+                
             </div>
            
 
@@ -508,104 +559,127 @@
 
 <!-- The Contact Section  -->
 
-        <section class="section section-main-five section-contact" id="contact">
+        <section class="section section-main-five section-contact  tailwind overflow-x-hidden min-h-[100%] w-[100%] absolute top-0 left-0 bg-black py-8 px-5
+        transform -translate-y-full scale-0 transition-all duration-600 ease-in-out" id="contact">
 
             <div class="contact-container">
-                <div class="intro-title">
-                    <h2>Contact<span class="me-text"> Me </span><span class="backgroud-text">Contact Me</span></h2>
+                
+                
+                <div class="intro-title tailwind relative mt-0 text-center">
+                    <h2 class="relative uppercase text-lg ">Contact <span class="me-text tailwind
+                        text-yellow-300
+                        "> Me </span><span class="backgroud-text absolute opacity-40 -z-0 text-gray-300 text-center transform -translate-x-1/2 -translate-y-1/2">Contact Me</span></h2>
                 </div>
 
-                <div class="contact-content">
-                    <div class="left-contact">
-                        <h4 class="title-know">Let's Know Each Other</h4>
+        <div class="contact-content flex justify-center items-center flex-wrap">
+            <div class="left-contact tailwind flex-3 ">
+                <h4 class="title-know tailwind sm:text-xl font-bold text-yellow-400 mb-8 text-center">Let's Know Each Other</h4>
                         
-                        <div class="contact-info">
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fa fa-map-marker"></i>
-                                    <h4>Location</h4>
-                                </div>
-                                <p class="contact-item-description">Addis Ababa, Ethiopia</p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fa fa-envelope"></i>
-                                    <h4>Email</h4>
-                                </div>
-                                <p class="contact-item-description"> <a href = "mailto: amanueltsehay11@gmail.com">amanueltsehay11@gmail.com</a></p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fa fa-user-graduate"></i>
-                                    <h4>Education</h4>
-                                </div>
-                                <p class="contact-item-description"> Addis Ababa University, Ethiopia</p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fa fa-mobile-phone"></i>
-                                    <h4>Location</h4>
-                                </div>
-                                <p class="contact-item-description"> Addis Ababa, Ethiopia</p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fa fa-language"></i>
-                                    <h4>Languages</h4>
-                                </div>
-                                <p class="contact-item-description"> Amharic, English, French</p>
-                            </div>
-                        </div>
+        <div class="contact-info tailwind flex flex-col gap-1">
+            <div class="contact-item flex justify-between items-center">
+                <div class="icon grid grid-cols-[30px,1fr]">
+                    <i class="fa fa-map-marker text-base text-yellow-500"></i>
+                    <h4 class="text-xs uppercase mb-2 text-center">Location</h4>
+                </div>
+                <p class="contact-item-description text-xs font-medium p-2 text-white">Addis Ababa, Ethiopia</p>
+            </div>
+            <div class="contact-item flex justify-between items-center">
+                <div class="icon grid grid-cols-[30px,1fr]">
+                    <i class="fa fa-envelope text-base text-yellow-500"></i>
+                    <h4 class="text-xs uppercase mb-2 text-center">Email</h4>
+                </div>
+                <p class="contact-item-description text-xs font-medium p-2 text-white"><a href="mailto: amanueltsehay11@gmail.com">amanueltsehay11@gmail.com</a></p>
+            </div>
+            <div class="contact-item flex justify-between items-center">
+                <div class="icon grid grid-cols-[30px,1fr]">
+                    <i class="fa fa-user-graduate text-base text-yellow-500"></i>
+                    <h4 class="text-xs uppercase mb-2 text-center">Education</h4>
+                </div>
+                <p class="contact-item-description text-xs font-medium p-2 text-white">Addis Ababa University, Ethiopia</p>
+            </div>
+            <div class="contact-item flex justify-between items-center">
+                <div class="icon grid grid-cols-[30px,1fr]">
+                    <i class="fa fa-mobile-phone text-base text-yellow-500"></i>
+                    <h4 class="text-xs uppercase mb-2 text-center">Phone</h4>
+                </div>
+                <p class="contact-item-description text-xs font-medium p-2 text-white">Addis Ababa, Ethiopia</p>
+            </div>
+            <div class="contact-item flex justify-between items-center">
+                <div class="icon grid grid-cols-[30px,1fr]">
+                    <i class="fa fa-language text-base text-yellow-500"></i>
+                    <h4 class="text-xs uppercase mb-2 text-center">Languages</h4>
+                </div>
+                <p class="contact-item-description text-xs font-medium p-2 text-white">Amharic, English, French</p>
+            </div>
+        </div>
 
-                        <div class="contact-icons">
-                            <div class="contact-icon">
-                                <a href="https://www.linkedin.com/in/amanuel-wondim-30843523a/" target="_blank">
-                                    <i class="fa-brands fa-linkedin"></i>
-                                </a>
-                            </div>
-                            <div class="contact-icon">
-                                <a href="https://github.com/Amantsehay" target="_blank">
-                                    <i class="fa-brands fa-github"></i>
-                                </a>
-                            </div>
-                            <div class="contact-icon">
-                                <a href="https://www.instagram.com/aman_tsehay/" target="_blank">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </a>
-                            </div>
-                            <div class="contact-icon">
-                                <a href="https://www.facebook.com/amanuel.tsehay.391" target="_blank">
-                                    <i class="fa-brands fa-facebook"></i>
-                                </a>
-                            </div>
-                            <div class="contact-icon">
-                                <a href="https://twitter.com/amanueltsehay1" target="_blank">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </a>
-                            </div>
+
+        <div class="contact-icons flex justify-center gap-2 mr-8 ">
+            <div class="contact-icon">
+                <a href="https://www.linkedin.com/in/amanuel-wondim-30843523a/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="contact-icon">
+                <a href="https://github.com/Amantsehay" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            <div class="contact-icon">
+                <a href="https://www.instagram.com/aman_tsehay/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            <div class="contact-icon">
+                <a href="https://www.facebook.com/amanuel.tsehay.391" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+            <div class="contact-icon">
+                <a href="https://twitter.com/amanueltsehay1" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
                             
-                        </div>
-                    </div>
+            </div>
+        </div>
 
-                    <div class="right-contact">
-                        <form action="" class="contact-form">
-                            <div class="input-control i-c-2">
-                                <input type="text" name="name" id="name" placeholder="Name" required>
-                                <input type="text" name="email" id="email" placeholder="Email" required>
-                            </div>
-                            <div class="input-control">
-                                <input type="text" name="subject" id="subject" placeholder="Subject" required>   
-                            </div>
+        <div class="right-contact flex my-0 ml-[5%] mr-[5%]">
+            <form action="" class="contact-form">
+                <div class="input-control mx-4 mr-4 mt-0 mb-0  i-c-2 flex gap-4 ">
+                    <input type="text" name="name" id="name" placeholder="Name" required
+                    class="rounded-[20px] text-base text-white py-2 px-4 bg-gray-700 w-full transition-all duration-500 border-none outline-none
+                    ease-in-out shadow-2xl resize-y my-6 text-center">
+                    <input type="text" name="email" id="email" placeholder="Email" required
+                    class="rounded-[20px] text-base text-white py-2 px-4 bg-gray-700 w-full transition-all duration-500 border-none outline-none
+                    ease-in-out shadow-2xl resize-y my-6 text-center
+                    "
+                    >
+                </div>
+                <div class="input-control mx-4 mr-4 mt-0 mb-0">
+                    <input type="text" name="subject" id="subject" placeholder="Subject" required
+                    class="rounded-[20px] text-base text-white py-2 px-4 bg-gray-700 w-full transition-all duration-500 border-none outline-none
+                    ease-in-out shadow-2xl resize-y text-center"   
+                    >
+                    
+                </div>
 
-                            <div class="input-control">
-                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
-                            </div>
+                <div class="input-control mx-4 mr-4 mt-0 mb-0">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required
+                    class="
+                    rounded-[20px] text-base text-white py-2 px-4 bg-gray-700 w-full transition-all duration-500 border-none outline-none
+                    ease-in-out shadow-2xl resize-y my-6 text-center"></textarea>
+                </div>
 
-                            <div class="input-control btn-submit">
-                                <input type="submit" value="Send Message" class="btn btn-primary">
-                            </div>
-                        </form>
-                    </div>
+                <div class="input-control btn-submit ">
+                    <input type="submit"
+                    class="min-w-[200px] w-1/2 bg-gray-300 transition-all duration-500
+                    text-gray-500 ease-in-out shadow-2xl hover:bg-gray-600 hover:text-white rounded-[20px] ml-4 p-1
+                    " value="Send Message" class="btn btn-primary
+                    ">
+                </div>
+            </form>
+        </div>
                 </div>
                 
             </div>
@@ -614,29 +688,36 @@
 
 
 
-        <section class="section section-main section-main-six section-hobbies" id="hobbies">
+        <section class="section section-main section-main-six section-hobbies  tailwind overflow-x-hidden min-h-[100%] w-[100%] absolute top-0 left-0 bg-black py-8 px-5" id="hobbies">
         </section>
     </main>
 
 
 
-    <div class="controls">
+    <div class="controls fixed z-10 top-1/2 right-3 flex flex-col justify-center items-center transform -translate-y-1/2">
         
-            <div class="control control-1 active-btn"   data-id="home">
-                <i class="fa-solid fa-house"></i>
+            <div class="control control-1 active-btn 
+            tailwind transition-all duration-300 ease-in-out bg-green
+            p-1 cursor-pointer bg-gray-600 w-[50px] h-[50px] rounded-full flex justify-center items-center m-0.5 shadow-box-shadow-1
+             "   data-id="home">
+                <i class="fa-solid fa-house text-white"></i>
             </div>
-            <div class="control control-2"   data-id="about">
+            <div class="control control-2
+            p-1 cursor-pointer bg-gray-600  w-[50px] h-[50px] rounded-full flex justify-center items-center m-0.5 shadow-box-shadow-1"   data-id="about">
                 <i class="fa-solid fa-user"></i>
             </div>
             <!-- the project icos -->
-            <div class="control control-3"   data-id="projects">
+            <div class="control control-3
+            p-1 cursor-pointer bg-gray-600  w-[50px] h-[50px] rounded-full flex justify-center items-center m-0.5 shadow-box-shadow-1"   data-id="projects">
                 <i class="fa-solid fa-project-diagram"></i>
             </div>
             <!-- Hobbies icon  -->
-            <div class="control control-4"   data-id="blogs">
+            <div class="control control-4
+            p-1 cursor-pointer bg-gray-600  w-[50px] h-[50px] rounded-full flex justify-center items-center m-0.5 shadow-box-shadow-1"   data-id="blogs">
                 <i class="fas fa-gamepad"></i>
             </div>
-            <div class="control control-5"   data-id="contact">
+            <div class="control control-5
+         cursor-pointer bg-gray-600 w-[50px] h-[50px] rounded-full flex justify-center items-center m-0.5 shadow-box-shadow-1"   data-id="contact">
                 <i class="fa-solid fa-envelope"></i>
 
         </div>
@@ -655,7 +736,7 @@
             <span class="line"></span>
         </div>
        
-        <div class="controls">
+        <div class="controls fixed z-10 top-1/2 right-3 flex flex-col justify-center items-center transform -translate-y-1/2">
         
             <div class="control control-1 active-btn"   data-id="home">
                 <i class="fa-solid fa-house"></i>
@@ -678,9 +759,10 @@
     </div>
 
 
-    <footer class="footer-class">
-        <p>© 2023 Amanuel Tsehay. All rights reserved.</p>
+    <footer class="footer-class fixed bottom-0 w-full transition-all duration-1000 ease-in-out text-gray-600 bg-gray-600 hover:bg-gray-700 hover:text-white h-4 hover:h-8">
+        <p class="text-sm font-medium  p-2 text-center">© 2023 Amanuel Tsehay. All rights reserved.</p>
     </footer>
+    
 
 
     <script type="module" src="index.js"></script>
