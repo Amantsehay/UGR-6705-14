@@ -5,106 +5,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website </title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./css/style.css        ">
+     <link rel="stylesheet" href="../style.css">
+     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
-<body class="main-content">
+<body class="main-content bg-body font-monospace text-bg-dark">
     <main>
         <!-- The Home Section -->
 
-        <section class="home-section section-main section-main-one active-section" id="home">
-            <div class="swiper mySwiper row container">
-                <div class="swiper-pagination row ">
-                </div>
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide row ">
-                  <div class="swiper-content">
-                    <div class="name-text">
-                        <h1 class="name">
-                            <span style="font-size:xx-large;">ሰላም</span>
-                        </h1>
-                        <p >
-                          You can call me Amanuel Tsehay. I'm a full-stack web developer and a....
-                        </p>
+        <section class="home-section section-main section-main-one  bootstrap container " id="home">
+            <div id="myCarousel" class="carousel slide container" data-bs-ride="carousel">
+                <div class="carousel-inner">
 
-                    </div>
-                    <div class="btn-container">
-                        <a href="./resources/amanuel-resume.pdf" class="btn btn-primary" download="resume-amanuel.pdf">
-                            <span class="btn-text">
-                                Download CV  
-                            </span>
-                            <span class="btn-icon">
-                                <i class="fas fa-download"></i>
-                            </span>
-                        
-                        </a>
-
-                    </div>
-                   
-                  </div>
-                  <div class="swiper-img row ">
-                        
-                    <div class="h-shape"></div>
-                    <div class="image">
-
-                        <!-- <img src="./images/black-level-PhotoRoom.png-PhotoRoom.png" alt="">  -->
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide row ">
-                    <div class="swiper-content">
-                        <div class="name-text">
-                            <h1 class="name">
-                                <span> Salut</span>
-                            </h1>
-                            <p style="text-transform: uppercase;">
-                                la vie est belle.
-                            </p>
-
-                        </div>
-                      
-                    </div>
-                      <div class="swiper-img row ">
-                        <div class="h-shape"></div>
-                        <div class="image">
-
-                            <!-- <img src="./images/21266941-removebg-preview.png" alt="">  -->
+                    <!-- Item 1 -->
+                    <div class="carousel-item active">
+                        <div class="swiper mySwiper row">
+                            <div class="swiper-pagination row"></div>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide row">
+                                    <div class="swiper-content">
+                                        <div class="name-text">
+                                            <h1 class="name">
+                                                <span style="font-size: xx-large;">ሰላም</span>
+                                            </h1>
+                                            <p>
+                                                You can call me Amanuel Tsehay. I'm a full-stack web developer and a....
+                                            </p>
+                                        </div>
+                                        <div class="btn-container">
+                                            <a href="./resources/amanuel-resume.pdf" class="btn btn-primary" download="resume-amanuel.pdf">
+                                                <span class="btn-text">Download CV</span>
+                                                <span class="btn-icon">
+                                            <i class="fas fa-download"></i>
+                                        </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-img row">
+                                        <div class="h-shape"></div>
+                                        <div class="image">
+                                            <!-- <img src="./images/black-level-PhotoRoom.png-PhotoRoom.png" alt=""> -->
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                    </div>
 
-                  </div>
-
-                  <div class="swiper-slide row ">
-                      <div class="swiper-img row swiper-img-third ">
-                        <div class="h-shape">
-
-                        </div>
-                        <div class="image">
-                            <img  src="./images/Amanuel_s-Image-transformed.png" alt="">
-
-                        </div>
-                        
-                      </div>
-                    <div class="swiper-content ">
-                        <div class="name-text">
-                            <h1 class="name">
-                                Hi, I'm <span> Amanuel Tsehay</span>
-                            </h1>
-                            <p >
-                               Dont ask what your code can do for you, ask what you can do for your code.
-                            </p>
-
+                    <!-- Item 2 -->
+                    <div class="carousel-item">
+                        <div class="swiper mySwiper row">
+                            <div class="swiper-pagination row"></div>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide row">
+                                    <div class="swiper-content">
+                                        <div class="name-text">
+                                            <h1 class="name">
+                                                <span> Salut</span>
+                                            </h1>
+                                            <p style="text-transform: uppercase;">
+                                                la vie est belle.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-img row">
+                                        <div class="h-shape"></div>
+                                        <div class="image">
+                                            <!-- <img src="./images/21266941-removebg-preview.png" alt=""> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                  </div>
+
+                    <!-- Item 3 -->
+                    <div class="carousel-item">
+                        <div class="swiper mySwiper row">
+                            <div class="swiper-pagination row"></div>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide row">
+                                    <div class="swiper-img row swiper-img-third">
+                                        <div class="h-shape"></div>
+                                        <div class="image">
+                                            <img src="./images/Amanuel_s-Image-transformed.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-content ">
+                                        <div class="name-text">
+                                            <h1 class="name">
+                                                Hi, I'm <span> Amanuel Tsehay</span>
+                                            </h1>
+                                            <p>
+                                                Dont ask what your code can do for you, ask what you can do for your code.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add more carousel items as needed -->
 
                 </div>
-                <div class="swiper-button-next row">
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
                     <i class="fas fa-chevron-right"></i>
-                </div>
-                <!-- <div class="swiper-button-prev"></div> -->
-              </div>
+                </button>
+            </div>
 
-
+            <!-- Bootstrap JS and Popper.js -->
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="..."></script>
 
         </section>
 
@@ -118,7 +132,7 @@
 
 <!-- The About Section  -->
 
-        <section class="section section-main section-main-two section-about" id="about">
+        <section class="section section-main section-main-two section-about " id="about">
             <!-- <div class="relative-control">
                 <div class="controls">
                     <div class="control control-6" data-id="hobbies">
@@ -127,178 +141,176 @@
                 </div>
             </div>
             -->
-            
 
-            <div class="intro-title">
-                <h2>About <span class="me-text"> Me </span><span class="backgroud-text">About Me</span></h2>
+
+            <div class="intro-title position-relative mt-0 text-warning text-center text-capitalize">
+                <h2 class="position-relative text-uppercase fs-3 ">About <span class="me-text text-success"> Me </span><span class="backgroud-text position-absolute opacity-25  ">About Me</span></h2>
             </div>
-            <div class="about-container">
-                
-                <div class="about-me-left">
+            <div class="about-container container row flex-wrap justify-content-center">
+
+                <div class="about-me-left d-flex flex-column justify-content-center align-items-center gap-2 p-4">
                     <h2 class="info-title"></h2>
-                    <p>
+                    <p class="text-info">
                         I am a full-stack web developer and a computer science student at Addis Ababa University. I have a passion for web development and love to create for web and mobile devices.
                     </p>
 
                     <div class="btn-container about-btn-container">
                         <a href="#" class="btn btn-primary">
                             <span class="btn-text">
-                                Download CV  
+                                Download CV
                             </span>
                             <span class="btn-icon">
                                 <i class="fas fa-download"></i>
                             </span>
-                        
+
                         </a>
 
-                    </div>      
+                    </div>
                 </div>
 
-                
 
-                <div class="about-me-right">
-                    <div class="about-item">
-                        <div class="about-text">
-                            <p class="about-large-text">2</p>
-                            <p class="small-text">Projects <br> Started</p>
+
+                <div class="about-me-right container row gap-4 col ">
+                    <div class="about-item col border-info-subtle rounded-1 shadow-lg mx-auto p-4 btn">
+                        <div class="about-text p-4 flex-column ">
+                            <p class="about-large-text fs-4 fw-bold text-primary">2</p>
+                            <p class="small-text fs-6 fw-normal text-info">Projects <br> Started</p>
                         </div>
                     </div>
 
-                    <div class="about-item">
-                        <div class="about-text">
-                            <p class="about-large-text">0</p>
-                            <p class="small-text">Projects <br> <Compteled></Compteled></p>
+                    <div class="about-item col border-info-subtle rounded-1 shadow-lg mx-auto p-4 btn">
+                        <div class="about-text p-4 flex-column ">
+                            <p class="about-large-text fs-4 fw-bold text-primary">2</p>
+                            <p class="small-text fs-6 fw-normal text-info">Projects <br> Started</p>
                         </div>
                     </div>
 
-                    <div class="about-item">
-                        <div class="about-text">
-                            <p class="about-large-text">0</p>
-                            <p class="small-text">Projects <br> Started</p>
+                    <div class="about-item col border-info-subtle rounded-1 shadow-lg mx-auto p-4 btn">
+                        <div class="about-text p-4 flex-column ">
+                            <p class="about-large-text fs-4 fw-bold text-primary">2</p>
+                            <p class="small-text fs-6 fw-normal text-info">Projects <br> Started</p>
                         </div>
                     </div>
 
-                    <div class="about-item">
-                        <div class="about-text">
-                            <p class="about-large-text">0</p>
-                            <p class="small-text">Projects <br> Started</p>
+                    <div class="about-item col border-info-subtle rounded-1 shadow-lg mx-auto p-4 btn">
+                        <div class="about-text p-4 flex-column ">
+                            <p class="about-large-text fs-4 fw-bold text-primary">2</p>
+                            <p class="small-text fs-6 fw-normal text-info">Projects <br> Started</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="about-skills">
-                <h3 class="skills-title">
-                   My Skills 
+            <div class="about-skills p-4 gap-2  ">
+                <h3 class="skills-title text-center text-danger fw-medium">
+                   My Skills
                 </h3>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="progress-title">HTML</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
-                                80%
+                <div class="progress-bars container row ">
+                    <div class="col-sm-6">
+                        <div class="progress-bar">
+                            <p class="progress-title fs-5 fw-medium text-danger">Css</p>
+                            <div class="progresses d-flex justify-content-md-center align-items-baseline">
+                                <div class="progress-value progress-text p-2 fs-6 fw-bolder text-success">60%</div>
+                                <div class="progress position-relative w-100 bg-secondary">
+                                    <span class="prog-line position-absolute top-0 left-0 w-50 h-100 bg-opacity-100 bg-success"></span>
+                                </div>
                             </div>
-                            <div class="progress">
-                                <span class="prog-line html">
-                                </span>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="progress-title fs-5 fw-medium text-danger">Css</p>
+                            <div class="progresses d-flex justify-content-md-center align-items-baseline">
+                                <div class="progress-value progress-text p-2 fs-6 fw-bolder text-success">60%</div>
+                                <div class="progress position-relative w-100 bg-secondary">
+                                    <span class="prog-line position-absolute top-0 left-0 w-50 h-100 bg-opacity-100 bg-success"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="progress-title fs-5 fw-medium text-danger">React</p>
+                            <div class="progresses d-flex justify-content-md-center align-items-baseline">
+                                <div class="progress-value progress-text p-2 fs-6 fw-bolder text-success">60%</div>
+                                <div class="progress position-relative w-100 bg-secondary">
+                                    <span class="prog-line position-absolute top-0 left-0 w-50 h-100 bg-opacity-100 bg-success"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="progress-title fs-5 fw-medium text-danger">NodeJS</p>
+                            <div class="progresses d-flex justify-content-md-center align-items-baseline">
+                                <div class="progress-value progress-text p-2 fs-6 fw-bolder text-success">50%</div>
+                                <div class="progress position-relative w-100 bg-secondary">
+                                    <span class="prog-line position-absolute top-0 left-0 w-50 h-100 bg-opacity-100 bg-success"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="progress-title fs-5 fw-medium text-danger">Java</p>
+                            <div class="progresses d-flex justify-content-md-center align-items-baseline">
+                                <div class="progress-value progress-text p-2 fs-6 fw-bolder text-success">80%</div>
+                                <div class="progress position-relative w-100 bg-secondary">
+                                    <span class="prog-line position-absolute top-0 left-0 w-50 h-100 bg-opacity-100 bg-success"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar mx-2">
+                            <p class="progress-title fs-5 fw-medium text-danger">HTML</p>
+                            <div class="progresses d-flex justify-content-md-center align-items-baseline">
+                                <div class="progress-value progress-text p-2 fs-6 fw-bolder text-success">80%</div>
+                                <div class="progress position-relative w-100 bg-secondary">
+                                    <span class="prog-line position-absolute top-0 left-0 w-50 h-100 bg-opacity-100 bg-success"></span>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                    
+
+                    <div class="col-sm-6">
+                        <div class="progress-bar">
+                            <p class="progress-title fs-5 fw-medium text-danger">NodeJS</p>
+                            <div class="progresses d-flex justify-content-md-center align-items-baseline">
+                                <div class="progress-value progress-text p-2 fs-6 fw-bolder text-success">50%</div>
+                                <div class="progress position-relative w-100 bg-secondary">
+                                    <span class="prog-line position-absolute top-0 left-0 w-50 h-100 bg-opacity-100 bg-success"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="progress-title fs-5 fw-medium text-danger">Java</p>
+                            <div class="progresses d-flex justify-content-md-center align-items-baseline">
+                                <div class="progress-value progress-text p-2 fs-6 fw-bolder text-success">80%</div>
+                                <div class="progress position-relative w-100 bg-secondary">
+                                    <span class="prog-line position-absolute top-0 left-0 w-50 h-100 bg-opacity-100 bg-success"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="progress-title fs-5 fw-medium text-danger">Python</p>
+                            <div class="progresses d-flex justify-content-md-center align-items-baseline">
+                                <div class="progress-value progress-text p-2 fs-6 fw-bolder text-success">70%</div>
+                                <div class="progress position-relative w-100 bg-secondary">
+                                    <span class="prog-line position-absolute top-0 left-0 w-50 h-100 bg-opacity-100 bg-success"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="progress-title fs-5 fw-medium text-danger">Spring Boot</p>
+                            <div class="progresses d-flex justify-content-md-center align-items-baseline">
+                                <div class="progress-value progress-text p-2 fs-6 fw-bolder text-success">60%</div>
+                                <div class="progress position-relative w-100 bg-secondary">
+                                    <span class="prog-line position-absolute top-0 left-0 w-50 h-100 bg-opacity-100 bg-success"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="progress-title fs-5 fw-medium text-danger">Bootstrap</p>
+                            <div class="progresses d-flex justify-content-md-center align-items-baseline">
+                                <div class="progress-value progress-text p-2 fs-6 fw-bolder text-success">30%</div>
+                                <div class="progress position-relative w-100 bg-secondary">
+                                    <span class="prog-line position-absolute top-0 left-0 w-50 h-100 bg-opacity-100 bg-success"></span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">Css</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
-                                60%
-                            </div>
-                            <div class="progress">
-                                <span class="prog-line css">
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">JavaScript</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
-                                60%
-                            </div>
-                            <div class="progress">
-                                <span class="prog-line js">
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">React</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
-                                60%
-                            </div>
-                            <div class="progress">
-                                <span class="prog-line react">
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">NodeJS</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
-                                50%
-                            </div>
-                            <div class="progress">
-                                <span class="prog-line node">
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">Java</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
-                                80%
-                            </div>
-                            <div class="progress">
-                                <span class="prog-line java">
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">Python</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
-                                70%
-                            </div>
-                            <div class="progress">
-                                <span class="prog-line python">
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">Spring Boot</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
-                                60%
-                            </div>
-                            <div class="progress">
-                                <span class="prog-line spring-boot">
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">Bootstrap</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
-                                30%
-                            </div>
-                            <div class="progress">
-                                <span class="prog-line bootstrap">
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
 
             </div>
@@ -312,141 +324,155 @@
 
 
 <!-- The Projects Section  -->
+<section class="section section-main section-main-three active-section section-projects" id="projects">
+    <div class="container text-center">
+        <div class="intro-title position-relative mt-0 text-warning text-capitalize">
+            <h2 class="position-relative text-uppercase fs-3 ">My  <span class="me-text text-success"> Projects </span><span class="backgroud-text position-absolute opacity-25  ">my projects</span></h2>
+        </div>
 
-        <section class="section section-main section-main-three section-projects" id="projects">
-            <div class="intro-title">
-                <h2>My <span class="me-text"> Pojects </span><span class="backgroud-text">Projects</span></h2>
+        <p class="portfolio-text text-center"> Some of the Projects I'm currently working on</p>
+
+        <div class="project-container row justify-content-center gap-3">
+
+            <div class="a-project col-md-5 position-relative shadow-sm border-1 border-primary">
+                <div class="proj-img-text d-flex justify-content-center align-items-center flex-column">
+                    <p>Twitter Clone</p>
+                    <div class="project-image w-100">
+                        <img src="./images/react-twitter-clone.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="hover-item position-absolute left-0 top-0 w-100 h-100 transition opacity-0 bg-light border-radius-15 d-flex justify-content-space-evenly align-items-center flex-wrap flex-column">
+                    <p class="proj-description mt-0 mx-2 fs-6 fw-light text-info">A twitter clone project to learn the in and out of enterprise web development</p>
+                    <div>
+                        <h4 class="fs-6 fw-bold text-danger text-uppercase mb-2 text-center">Project Source</h4>
+                        <div class="icons">
+                            <a href="https://github.com/Amantsehay/Ctwitter" target="_blank" class="icon d-flex justify-content-center">
+                                <i class="fab fa-github btn btn-secondary rounded-circle shadow-sm align-self-center"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <p class="portfolio-text"> Some of the Projects I'm currently working on</p>
+          
 
-            <div class="project-container">
+<div class="a-project col-md-5 position-relative shadow-sm border-1 border-primary">
+    <div class="proj-img-text d-flex justify-content-center align-items-center flex-column">
+        <p>Car Sales Website</p>
+        <div class="project-image w-100">
+            <img src="./images/car-sales-picture.jpeg" alt="" class="img-fluid">
+        </div>
+    </div>
 
-                <div class="a-project">
-                    <div class="proj-img-text">
-
-                        <p>Twitter Clone </p>
-                        <div class="project-image">
-                            <img src="./images/react-twitter-clone.jpg" alt="">
-                        </div>
-                    </div>
-
-                    <div class="hover-item">
-                        <p class="proj-description">A twitter clone project to learn the in and out of enterprise web development</p>
-                        <div>
-                            <h4>Project Source</h4>
-                            <div class="icons">
-                                <a href="https://github.com/Amantsehay/Ctwitter" target="_blank" class="icon">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-            
-                    </div>
-                </div>
-                <div class="a-project">
-                    <div class="proj-img-text">
-                        <p>Car Sales Website </p>
-                        <div class="project-image">
-                            <img src="./images/car-sales-picture.jpeg" alt="">
-                        </div>
-                    </div>
-
-                    <div class="hover-item">
-                        <p class="proj-description">A car sales website to learn the in and out of enterprise web development</p>
-                        <div>
-                            <h4>Project Source</h4>
-                            <div class="icons">
-                                <a href="https://github.com/Amantsehay/TreasureCart" target="_blank" class="icon">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="a-project">
-                    <div class="proj-img-text">
-
-                        <p>Dev Scrape</p>
-                        <div class="project-image">
-                            <img src="./images/dev-scrap-picture.jpg" alt="">
-                        </div>
-                    </div>
-
-                    <div class="hover-item">
-                        <p class="proj-description">A Web Scraping project to learn to have a good understanding of data intensive projects and AI </p>
-                        <div>
-                            <h4>Project Source</h4>
-                            <div class="icons">
-                                <a href="link-to-github" target="_blank" class="icon">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+    <div class="hover-item position-absolute left-0 top-0 w-100 h-100 transition opacity-0 bg-light border-radius-15 d-flex justify-content-space-evenly align-items-center flex-wrap flex-column">
+        <p class="proj-description mt-0 mx-2 fs-6 fw-light text-info">A car sales website to learn the in and out of enterprise web development</p>
+        <div>
+            <h4 class="fs-6 fw-bold text-danger text-uppercase mb-2 text-center">Project Source</h4>
+            <div class="icons">
+                <a href="https://github.com/Amantsehay/TreasureCart" target="_blank" class="icon d-flex justify-content-center">
+                    <i class="fab fa-github btn btn-secondary rounded-circle shadow-sm align-self-center"></i>
+                </a>
             </div>
+        </div>
+    </div>
+</div>
+
+<div class="a-project col-md-5 position-relative shadow-sm border-1 border-primary">
+    <div class="proj-img-text d-flex justify-content-center align-items-center flex-column">
+        <p>Dev Scrape</p>
+        <div class="project-image w-100">
+            <img src="./images/dev-scrap-picture.jpg" alt="" class="img-fluid">
+        </div>
+    </div>
+
+    <div class="hover-item position-absolute left-0 top-0 w-100 h-100 transition opacity-0 bg-light border-radius-15 d-flex justify-content-space-evenly align-items-center flex-wrap flex-column">
+        <p class="proj-description mt-0 mx-2 fs-6 fw-light text-info">A Web Scraping project to learn to have a good understanding of data-intensive projects and AI</p>
+        <div>
+            <h4 class="fs-6 fw-bold text-danger text-uppercase mb-2 text-center">Project Source</h4>
+            <div class="icons">
+                <a href="link-to-github" target="_blank" class="icon d-flex justify-content-center">
+                    <i class="fab fa-github btn btn-secondary rounded-circle shadow-sm align-self-center"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
 
-
-        </section>  
-
+        </div>
+    </div>
+</section>
 
 
 
 
         <section class="section section-main section-main-four section-blogs" id="blogs">
-            
 
-            <div class="intro-title">
-                <h2>Hobbi <span class="me-text"> es Ho </span><span class="backgroud-text">bies</span></h2>
+            <div class="container">
+                <div class="intro-title text-center mb-4">
+                    <h2 class="text-uppercase text-white font-weight-bold">Hobbies</h2>
+                </div>
+        
+                <div class="hobbies-container d-flex flex-wrap justify-content-center gap-4">
+        
+                    <figure class="position-relative flex-shrink-0" style="max-width: 500px; max-height: 400px; overflow: hidden; border-radius: 15px; box-shadow: var(--box-shadow-1); transition: all 0.5s ease-in-out; cursor: pointer;">
+                        <img src="./images/reading-books.png" alt="Reading Icon" class="w-100 h-100 object-fit-cover transition">
+                        <figcaption class="position-absolute top-0 left-0 right-0 bottom-0 p-4 d-flex flex-column justify-content-center align-items-center flex-shrink-1" style="background-color: rgba(0, 0, 0, 0.5); transition: all 0.5s ease-in-out;">
+                            <p class="mb-0 text-white transition">Exploring new worlds and gaining knowledge through literature.</p>
+                        </figcaption>
+                    </figure>
+        
+                  <!-- Repeat the above figure block for other hobbies -->
+
+<figure class="position-relative flex-shrink-0" style="max-width: 500px; max-height: 400px; overflow: hidden; border-radius: 15px; box-shadow: var(--box-shadow-1); transition: all 0.5s ease-in-out; cursor: pointer;">
+    <img src="./images/tennis-fun-1-1398467.jpg" alt="Table Tennis Icon" class="w-100 h-100 object-fit-cover transition">
+    <figcaption class="position-absolute top-0 left-0 right-0 bottom-0 p-4 d-flex flex-column justify-content-center align-items-center flex-shrink-1" style="background-color: rgba(0, 0, 0, 0.5); transition: all 0.5s ease-in-out;">
+        <p class="mb-0 text-white transition">Engaging in fast-paced and competitive table tennis matches.</p>
+    </figcaption>
+</figure>
+
+<figure class="position-relative flex-shrink-0" style="max-width: 500px; max-height: 400px; overflow: hidden; border-radius: 15px; box-shadow: var(--box-shadow-1); transition: all 0.5s ease-in-out; cursor: pointer;">
+    <img src="./images/hiking-picture.png" alt="Hiking Icon" class="w-100 h-100 object-fit-cover transition">
+    <figcaption class="position-absolute top-0 left-0 right-0 bottom-0 p-4 d-flex flex-column justify-content-center align-items-center flex-shrink-1" style="background-color: rgba(0, 0, 0, 0.5); transition: all 0.5s ease-in-out;">
+        <p class="mb-0 text-white transition">Exploring nature, staying active, and enjoying scenic trails.</p>
+    </figcaption>
+</figure>
+
+<figure class="position-relative flex-shrink-0" style="max-width: 500px; max-height: 400px; overflow: hidden; border-radius: 15px; box-shadow: var(--box-shadow-1); transition: all 0.5s ease-in-out; cursor: pointer;">
+    <img src="./images/video-gaming-pic.png" alt="Video Gaming Icon" class="w-100 h-100 object-fit-cover transition">
+    <figcaption class="position-absolute top-0 left-0 right-0 bottom-0 p-4 d-flex flex-column justify-content-center align-items-center flex-shrink-1" style="background-color: rgba(0, 0, 0, 0.5); transition: all 0.5s ease-in-out;">
+        <p class="mb-0 text-white transition">Immersive gaming experiences and virtual adventures.</p>
+    </figcaption>
+</figure>
+
+<figure class="position-relative flex-shrink-0" style="max-width: 500px; max-height: 400px; overflow: hidden; border-radius: 15px; box-shadow: var(--box-shadow-1); transition: all 0.5s ease-in-out; cursor: pointer;">
+    <img src="./images/muddy-football.jpg" alt="Football Icon" class="w-100 h-100 object-fit-cover transition">
+    <figcaption class="position-absolute top-0 left-0 right-0 bottom-0 p-4 d-flex flex-column justify-content-center align-items-center flex-shrink-1" style="background-color: rgba(0, 0, 0, 0.5); transition: all 0.5s ease-in-out;">
+        <p class="mb-0 text-white transition">Football but socked in the mud.</p>
+    </figcaption>
+</figure>
+
+<figure class="position-relative flex-shrink-0" style="max-width: 500px; max-height: 400px; overflow: hidden; border-radius: 15px; box-shadow: var(--box-shadow-1); transition: all 0.5s ease-in-out; cursor: pointer;">
+    <img src="./images/james-bond.png" alt="Movies Icon" class="w-100 h-100 object-fit-cover transition">
+    <figcaption class="position-absolute top-0 left-0 right-0 bottom-0 p-4 d-flex flex-column justify-content-center align-items-center flex-shrink-1" style="background-color: rgba(0, 0, 0, 0.5); transition: all 0.5s ease-in-out;">
+        <p class="mb-0 text-white transition">Enjoying a variety of movies across different genres. By genres, I meant spies.</p>
+    </figcaption>
+</figure>
+
+<figure class="position-relative flex-shrink-0" style="max-width: 500px; max-height: 400px; overflow: hidden; border-radius: 15px; box-shadow: var(--box-shadow-1); transition: all 0.5s ease-in-out; cursor: pointer;">
+    <img src="./images/foodie-tour.jpg" alt="Foodie Tour Icon" class="w-100 h-100 object-fit-cover transition">
+    <figcaption class="position-absolute top-0 left-0 right-0 bottom-0 p-4 d-flex flex-column justify-content-center align-items-center flex-shrink-1" style="background-color: rgba(0, 0, 0, 0.5); transition: all 0.5s ease-in-out;">
+        <p class="mb-0 text-white transition">Devouring... I meant exploring different cultural cuisine</p>
+    </figcaption>
+</figure>
+
+                </div>
+        
             </div>
-            <div class="hobbies-container">
-                
-                <figure>
-                    <img src="./images/reading-books.png" alt="Reading Icon">
-                    <figcaption>Exploring new worlds and gaining knowledge through literature.</figcaption>
-                </figure>
-            
-                <figure>
-                    <img src="./images/tennis-fun-1-1398467.jpg" alt="Table Tennis Icon">
-                    <figcaption>Engaging in fast-paced and competitive table tennis matches.</figcaption>
-                </figure>
-            
-                <figure>
-                    <img src="./images/hiking-picture.png" alt="Hiking Icon">
-                    <figcaption>Exploring nature, staying active, and enjoying scenic trails.</figcaption>
-                </figure>
-            
-                <figure>
-                    <img src="./images/video-gaming-pic.png" alt="Video Gaming Icon">
-                    <figcaption>Immersive gaming experiences and virtual adventures.</figcaption>
-                </figure>
-            
-                <figure>
-                    <img src="./images/muddy-football.jpg" alt="Football Icon">
-                    <figcaption>Football but socked in the mud.</figcaption>
-                </figure>
-            
-                <figure>
-                    <img src="./images/james-bond.png" alt="Movies Icon">
-                    <figcaption>Enjoying a variety of movies across 
-                        different genres. By genres, I meant spies.
-                         .</figcaption>
-                </figure>
-            
-                <figure>
-                    <img src="./images/foodie-tour.jpg" alt="Foodie Tour Icon">
-                    <figcaption>Devou... I meant exploring different cultural cuisine</figcaption>
-                </figure>
-
-            </div>
-           
-
-        </section>    
-
+        
+        </section>
+        
 
 
 
@@ -508,59 +534,65 @@
 
 <!-- The Contact Section  -->
 
-        <section class="section section-main-five section-contact" id="contact">
+        <section class="section section-main-five section-contact " id="contact">
 
             <div class="contact-container">
-                <div class="intro-title">
-                    <h2>Contact<span class="me-text"> Me </span><span class="backgroud-text">Contact Me</span></h2>
+                <div class="intro-title position-relative mt-0 text-warning text-center text-capitalize">
+                    <h2 class="position-relative text-uppercase fs-3 ">contact <span class="me-text text-success"> Me </span><span class="backgroud-text position-absolute opacity-25  ">contact Me</span></h2>
                 </div>
 
-                <div class="contact-content">
+                <div class="contact-content container-fluid d-flex justify-content-center align-items-center flex-row flex-wrap-reverse ">
                     <div class="left-contact">
-                        <h4 class="title-know">Let's Know Each Other</h4>
+                        <h4 class="title-know fw-light text-uppercase text-center text-info fs-6 mt-4 mb-4">Let's Know Each Other</h4>
                         
-                        <div class="contact-info">
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fa fa-map-marker"></i>
-                                    <h4>Location</h4>
+                        <div class="contact-info d-flex flex-column gap-1">
+                            <div class="contact-item d-flex align-items-baseline justify-content-between">
+                                <div class="icon d-flex gap-1">
+                                    <i class="fa fa-map-marker fs-5 text-warning 
+                                    "></i>
+                                    <h4 class=" small
+                                    text-uppercase text-center">Location</h4>
                                 </div>
-                                <p class="contact-item-description">Addis Ababa, Ethiopia</p>
+                                <p  class="contact-item-description small fw-500 text-white px-2 py-1">Addis Ababa, Ethiopia</p>
                             </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fa fa-envelope"></i>
-                                    <h4>Email</h4>
+                            <div class="contact-item d-flex align-items-baseline justify-content-between">
+                                <div class="icon d-flex gap-1">
+                                  <i class="fa fa-envelope fs-5 text-warning "></i>
+                                  <h4 class="small text-uppercase text-center">Email</h4>
                                 </div>
-                                <p class="contact-item-description"> <a href = "mailto: amanueltsehay11@gmail.com">amanueltsehay11@gmail.com</a></p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fa fa-user-graduate"></i>
-                                    <h4>Education</h4>
+                                <p class="contact-item-description small fw-500 text-white px-2 py-1">
+                                  <a href="mailto:amanueltsehay11@gmail.com">amanueltsehay11@gmail.com</a>
+                                </p>
+                              </div>
+                            
+                              <div class="contact-item d-flex align-items-baseline justify-content-between">
+                                <div class="icon d-flex gap-1">
+                                  <i class="fa fa-user-graduate fs-5 text-warning "></i>
+                                  <h4 class="small text-uppercase text-center">Education</h4>
                                 </div>
-                                <p class="contact-item-description"> Addis Ababa University, Ethiopia</p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fa fa-mobile-phone"></i>
-                                    <h4>Location</h4>
+                                <p class="contact-item-description small fw-500 text-white px-2 py-1">Addis Ababa University, Ethiopia</p>
+                              </div>
+                            <div class="contact-item d-flex align-items-baseline justify-content-between">
+                                <div class="icon d-flex gap-1">
+                                  <i class="fa fa-phone fs-5 text-warning "></i>
+                                  <h4 class="small text-uppercase text-center">Phone</h4>
                                 </div>
-                                <p class="contact-item-description"> Addis Ababa, Ethiopia</p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fa fa-language"></i>
-                                    <h4>Languages</h4>
+                                <p class="contact-item-description small fw-500 text-white px-2 py-1">251988521434</p>
+                              </div>
+                            <div class="contact-item d-flex align-items-baseline justify-content-between">
+                                <div class="icon d-flex gap-1">
+                                  <i class="fa fa-language fs-5 text-warning"></i>
+                                  <h4 class="small text-uppercase text-center">Languages</h4>
                                 </div>
-                                <p class="contact-item-description"> Amharic, English, French</p>
-                            </div>
+                                <p class="contact-item-description small fw-500 text-white px-2 py-1">Amharic, English, French</p>
+                              </div>
                         </div>
 
-                        <div class="contact-icons">
-                            <div class="contact-icon">
+                        <div class="contact-icons d-flex mx-4 my-0 justify-content-center flex-row  gap-2 text-sm">
+                            <div class="contact-icon d-flex flex-row align-items-center
+                            justify-content-center ">
                                 <a href="https://www.linkedin.com/in/amanuel-wondim-30843523a/" target="_blank">
-                                    <i class="fa-brands fa-linkedin"></i>
+                                    <i class="fa-brands fa-linkedin fs-6"></i>
                                 </a>
                             </div>
                             <div class="contact-icon">
@@ -587,22 +619,48 @@
                         </div>
                     </div>
 
-                    <div class="right-contact">
-                        <form action="" class="contact-form">
-                            <div class="input-control i-c-2">
-                                <input type="text" name="name" id="name" placeholder="Name" required>
-                                <input type="text" name="email" id="email" placeholder="Email" required>
+                    <div class="right-contact mt-0 mb-0 mx-3">
+                        <form action="" class="contact-form gap-1">
+                            <div class="input-control i-c-2 d-flex gap-2     mt-4 mb-4 mx-0">
+                                <input type="text" name="name" id="name" placeholder="Name" required
+                                class="form-control form-control-sm
+                                form-control-sm 
+                                imput-group-text a-project
+                                border-0 text-white  bg-secondary
+                                
+                                
+                            "
+                                >
+
+
+                                <input type="text" name="email" id="email" placeholder="Email" required
+                                class="form-control  form-control-sm 
+                                imput-group-text
+                                rounded-2
+                                border-0 text-white  bg-secondary
+                               ">
                             </div>
                             <div class="input-control">
-                                <input type="text" name="subject" id="subject" placeholder="Subject" required>   
+                                <input type="text" name="subject" id="subject" placeholder="Subject" required
+                                class="form-control form-control-sm 
+                                imput-group-text
+                                rounded-2
+                                border-0 text-white  bg-secondary
+                                "
+                                >   
                             </div>
 
                             <div class="input-control">
-                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required
+                                class="form-control
+                                bg-secondary
+                                border-0 
+                                rounded-4
+                                text-white "></textarea>
                             </div>
 
-                            <div class="input-control btn-submit">
-                                <input type="submit" value="Send Message" class="btn btn-primary">
+                            <div class="input-control btn-submit w-50 btn">
+                                <input type="submit" value="Send Message" class="btn btn-outline-secondary mt-0">
                             </div>
                         </form>
                     </div>
@@ -620,23 +678,23 @@
 
 
 
-    <div class="controls">
+    <div class="controls controls-desk position-fixed top-50 end-3 translate-middle-y end-0 mx-4 d-flex flex-column gap-1 " >
         
-            <div class="control control-1 active-btn"   data-id="home">
+            <div class="control control-1 active-btn btn btn-secondary rounded-circle shadow-sm"   data-id="home">
                 <i class="fa-solid fa-house"></i>
             </div>
-            <div class="control control-2"   data-id="about">
+            <div class="control control-2 btn btn-secondary rounded-circle shadow-sm"   data-id="about">
                 <i class="fa-solid fa-user"></i>
             </div>
             <!-- the project icos -->
-            <div class="control control-3"   data-id="projects">
+            <div class="control control-3 btn btn-secondary rounded-circle shadow-sm"   data-id="projects">
                 <i class="fa-solid fa-project-diagram"></i>
             </div>
             <!-- Hobbies icon  -->
-            <div class="control control-4"   data-id="blogs">
+            <div class="control control-4 btn btn-secondary rounded-circle shadow-sm"   data-id="blogs">
                 <i class="fas fa-gamepad"></i>
             </div>
-            <div class="control control-5"   data-id="contact">
+            <div class="control control-5 btn btn-secondary rounded-circle shadow-sm"   data-id="contact">
                 <i class="fa-solid fa-envelope"></i>
 
         </div>
@@ -648,39 +706,44 @@
 
 
     <!-- the hubmerger menu -->
-    <div class="hamburger-icon">
+    <!-- <div class="hamburger-icon">
         <div class="lines">
             <span class="line"></span>
             <span class="line"></span>
             <span class="line"></span>
         </div>
-       
-        <div class="controls">
+
+
+        <div class="controls position-fixed top-50 end-3  end-0 mx-4 d-flex flex-column gap-1">
         
-            <div class="control control-1 active-btn"   data-id="home">
+            <div class="control control-1 active-btn btn btn-secondary rounded-circle shadow-sm"   data-id="home">
                 <i class="fa-solid fa-house"></i>
             </div>
-            <div class="control control-2"   data-id="about">
+            <div class="control control-2 btn btn-secondary rounded-circle shadow-sm"   data-id="about">
                 <i class="fa-solid fa-user"></i>
             </div>
-            <!-- the project icos -->
-            <div class="control control-3"   data-id="projects">
+            the project icos 
+            <div class="control control-3 btn btn-secondary rounded-circle shadow-sm"   data-id="projects">
                 <i class="fa-solid fa-project-diagram"></i>
             </div>
-            <div class="control control-4"   data-id="blogs">
-                <i class="fa fa-gamepad"></i>
+             Hobbies icon  
+            <div class="control control-4 btn btn-secondary rounded-circle shadow-sm"   data-id="blogs">
+                <i class="fas fa-gamepad"></i>
             </div>
-            <div class="control control-5"   data-id="contact">
+            <div class="control control-5 btn btn-secondary rounded-circle shadow-sm"   data-id="contact">
                 <i class="fa-solid fa-envelope"></i>
 
         </div>
     </div>
-    </div>
+       
+       
+    </div> -->
 
 
-    <footer class="footer-class">
-        <p>© 2023 Amanuel Tsehay. All rights reserved.</p>
-    </footer>
+    <footer class="footer fixed-bottom py-2 bg-gray-600 text-white-50">
+        <p class="text-center m-0">© 2023 Amanuel Tsehay. All rights reserved.</p>
+      </footer>
+      
 
 
     <script type="module" src="index.js"></script>

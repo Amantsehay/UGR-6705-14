@@ -84,3 +84,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.querySelector('.hamburger-icon').addEventListener('click', function() {
     this.classList.toggle('open')});
+
+
+
+    let controlsDiv = document.querySelector('.controls-desk');
+    function handleMediaQuery(mediaQuery) {
+        controlsDiv.style.display = mediaQuery.matches ? 'none' : 'flex';
+    }
+
+    let mediaQuery = window.matchMedia('(max-width: 700px)');
+
+    handleMediaQuery(mediaQuery);
+
+    mediaQuery.addEventListener(handleMediaQuery);
